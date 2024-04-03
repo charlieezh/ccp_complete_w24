@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css" >
+    <link rel="stylesheet" href="css/style.css" >
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <a href = "#main" class="skip">Skip to Main Content</a>
+        <nav>
+            <ul>
+                <li class="current-page"><a href = "index.html">Home</a></li>
+                <li><a href = "pets.html">Pets</a></li>
+                <li><a href = "travel.html">Travel</a></li>
+                <li><a href = "recipes.html">Recipes</a></li>
+            </ul>
+        </nav>
+        <h1>Home</h1>
+
+    </header>
+    <main id="main">
+        <div>
+            <p tabindex="0">Welcome to Caribou Recommendations, your go-to destination for all things pets, recipes, and travel! Explore a world of captivating content where we cater to your love for furry companions, culinary delights, and globetrotting adventures. </p>
+
+        </div>
+        
+        <form>
+            <fieldset>
+                <legend>What do you want us to recommend you on?</legend>
+                <button type="button" id="radio-reset-button">Reset</button>
+                <div>
+                    <p>
+                        <input type="radio" name="interest" id="rec_pets" value="Pets" />
+                        <label for="rec_pets">Pets</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="interest" id="rec_travel" value="Travel Spots" />
+                        <label for="rec_travel">Travel Spots</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="interest" id="rec_recipe" value="Recipes" />
+                        <label for="rec_recipes">Recipes</label>
+                    </p>
+                </div>
+            </fieldset>
+        </form>
+            <!-- Jackie Wolf -->
+    
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
